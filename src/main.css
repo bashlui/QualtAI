@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+.navBar{
+    display: none;
+    justify-content: center;
+    height: 45px;
+
+    
+    padding: 5px 2.5rem 5px 2.5rem;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0,0,0,.3);
+    
+    
+}
+
+.mainCont{
+    height: 100vh;
+    background-color: #273996;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#logoImg{
+    
+    max-width: 200px;
+    margin-left: 4%;
+    margin-top: 35px;
+}
+
+.navBar-links{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.navBar-links a{
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.navBar-links a:hover{
+    color: #ffa62d;
+    transition: 300ms;
+}
+
+
+
+.iaCont{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    
+    color: #273996;
+    height: 100%;
+    flex-direction: column;
+    gap: 15px;
+  
+    
+}
+
+.canva-chat{
+    background-color: #bfbfbf5e;
+    height: 400px;
+    width: 75%;
+    border-radius: 7.5px;
+    box-shadow: 0px 3px 5px rgba(0,0,0,.3);
+}
