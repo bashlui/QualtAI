@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <title>QualtAI</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div id="logo" class="navBar">
-        <img id="logoImg" src="https://qamxazr-prod-app-qualtia.azurewebsites.net/wp-content/uploads/2019/11/home-1.gif" alt="">
-        <ul class="navBar-links">
-            <li><a href="https://qamxazr-prod-app-qualtia.azurewebsites.net/#negocios">Negocios</a></li>
-            <li><a href="https://qamxazr-prod-app-qualtia.azurewebsites.net/#nosotros">Nosotros</a></li>
-            <li><a href="https://qamxazr-prod-app-qualtia.azurewebsites.net/#nuestra-gente">Nuestra Gente</a></li>
-            <li><a href="https://qualtia.com.mx/noticias/">Noticias</a></li>
-            <li><a href="https://qualtia.com.mx/contacto/">Contacto</a></li>
-            <li><a href="https://qualtia.com.mx/aviso-de-privacidad/">Aviso de Privacidad</a></li>
-            <li><a href="https://concern.ethicsglobal.com/">Buzón de transparencia</a></li>
-        </ul> 
+      <img
+        id="logoImg"
+        src="https://qamxazr-prod-app-qualtia.azurewebsites.net/wp-content/uploads/2019/11/home-1.gif"
+        alt=""
+      />
+      <ul class="navBar-links">
+        <li>
+          <a href="https://qamxazr-prod-app-qualtia.azurewebsites.net/#negocios"
+            >Negocios</a
+          >
+        </li>
+        <li>
+          <a href="https://qamxazr-prod-app-qualtia.azurewebsites.net/#nosotros"
+            >Nosotros</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://qamxazr-prod-app-qualtia.azurewebsites.net/#nuestra-gente"
+            >Nuestra Gente</a
+          >
+        </li>
+        <li><a href="https://qualtia.com.mx/noticias/">Noticias</a></li>
+        <li><a href="https://qualtia.com.mx/contacto/">Contacto</a></li>
+        <li>
+          <a href="https://qualtia.com.mx/aviso-de-privacidad/"
+            >Aviso de Privacidad</a
+          >
+        </li>
+        <li>
+          <a href="https://concern.ethicsglobal.com/">Buzón de transparencia</a>
+        </li>
+      </ul>
     </div>
 
-   
-        <div class="iaCont" id="iaCont">
-            <h1>NutriBot</h1>
-            <div class="canva-chat">
-                
-            </div>
-        </div>
-    
-
+    <div class="iaCont" id="iaCont">
+      <h1>NutriBot</h1>
+      <div class="canva-chat">
+        <iframe
+        src="https://qualtai.streamlit.app/?embed=true"
+        width="1350"
+        height="700"
+        style={{ width: "100%", border: "none"}}
+    ></iframe>
+      </div>
+    </div>
     <div id="main" class="mainCont">
-        <img id="logoAnimation" src="https://qamxazr-prod-app-qualtia.azurewebsites.net/wp-content/uploads/2019/11/home-1.gif" alt="">
+      <img
+        id="logoAnimation"
+        src="https://qamxazr-prod-app-qualtia.azurewebsites.net/wp-content/uploads/2019/11/home-1.gif"
+        alt=""
+      />
     </div>
 
-    
-     <script>
-        setTimeout(function() {
-            document.getElementById('logoAnimation').style.display = 'none';
-            document.getElementById('main').style.display = 'none';
-            document.getElementById('logo').style.display = 'flex';
-            document.getElementById('iaCont').style.display = 'flex';
-        }, 3000);
+    <script>
+      setTimeout(function () {
+        document.getElementById("logoAnimation").style.display = "none";
+        document.getElementById("main").style.display = "none";
+        document.getElementById("logo").style.display = "flex";
+        document.getElementById("iaCont").style.display = "flex";
+      }, 3000);
     </script>
-    
-</body>
+  </body>
 </html>
